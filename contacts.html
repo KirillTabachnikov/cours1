@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="top">
+        <div class="down">
+            <div class="header__contact">
+                <!--Шапка сайта-->
+                <div class="menu container">
+                    <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
+                    <a href="contacts.html"><img src="img/address-book-solid.svg" alt="address-book"></a>
+                </div>
+                <div class="contact__us">
+                    <!--Заголовок Contact Us (h2)-->
+                    <h2 class="heading">Contact Us</h2>
+                    <!--Параграф с произвольным текстом не более 10 символов-->
+                    <p class="paragraf__contact">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
+                        <br>
+                        incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+            </div>
+            <div class="content__contact container__contact">
+                <div class="shell">
+                    <div class="connection">
+                        <div class="image">
+                            <!--Произвольное изображение (не более 350px)-->
+                            <img src="img/Group.svg" alt="1">
+                        </div>
+                        <!--Заголовок Address (h4)-->
+                        <h4 class="heading__connection heading__connection-addres">Address</h4>
+                        <!--Параграф с произвольным текстом не более 7 символов-->
+                        <p class="paragraf text__connection">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                        <div class="shell__phone">
+                            <h4 class="heading__connection heading__connection-shell">Phone</h4>
+                            <!--Список из 2х номеров телефонов-->
+                            <ol class="contact__mini">
+                                <li class="contact__phone">+7-977-777-77-77</li>
+                                <li class="contact__phone contact__phone-two">+7-914-444-44-44</li>
+                            </ol>
+                        </div>
+                        <!--Заголовок Phone (h4)-->
+                        <!--Заголовок Online service (h4)-->
+                        <h4 class="heading__connection heading__connection-shell">Online service</h4>
+                        <!--Список из 2х ссылок на сайт и почту (произвольный адрес и номер телефона)-->
+                        <ul class="contact__mini">
+                            <li class="contact__site"><a class="online" href="site">www.site.com</a></li>
+                            <li class="contact__email"><a class="online" href="mailto:mail@mail.ru">mail@mail.ru</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="feedback">
+                        <!--Добавил форму для корректной работы-->
+                        <form class="forma" action="#">
+                            <div class="forma__feedback">
+                                <!--Заголовок Send us message (h4)-->
+                                <h4 class="level4 heading__feedback">Send us message</h4>
+                                <!--Текст Full Name и текстовое поле ввода-->
+                                <span class="fullname">
+                                    Full Name
+                                </span>
+                                <input type="text" placeholder="Full Name" class="enter"><br>
+                                <!--Текст Email и поле ввода почты-->
+                                <span class="indent">
+                                    Email
+                                </span>
+                                <input type="email" placeholder="Email" class="enter"><br>
+                                <!--Текст Message и элемент textarea-->
+                                <span class="indent">
+                                    Message
+                                </span>
+                                <textarea name="" id="" placeholder="Your Message" cols="30" rows="10"
+                                    class="enter__message"></textarea><br>
+                                <!--Кнопка отправки с текстом submit-->
+                                <button type="submit" class="send">submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="map container__contact">
+                <!--Интерактивная яндекс карта-->
+                <script type="text/javascript" charset="utf-8" async
+                    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A654456c1dce131f35e419f3319db24db573fbd119334638199a67bcba62fab69&amp;height=450&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="title">
+                    <div class="info__footer">
+                        <h3 class="level3 level3__footer">Intersted to woek with our team?</h3>
+                        <p class="paragraf text__footer">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                            do
+                            eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                        </p>
+                    </div>
+                    <div class="talk">
+                        <input class="Lets" type="button" value="Let’s Talk">
+                    </div>
+                </div>
+                <hr>
+                <div class="contact">
+                    <ol class="contact__footer">
+                        <li class="contact__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                        <li class="contact__info"><a class="link" href="+7-914-444-44-44">Phone: +7-914-444-44-44</a>
+                        </li>
+                        <li class="contact__info"><a class="link" href="mail@mail.ru">Email: mail@mail.ru</a></li>
+                    </ol>
+                    <div class="rights">
+                        <p class="paragraf_rights">&copy;“Все права защищены”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
